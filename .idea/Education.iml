@@ -6,5 +6,7 @@
     </content>
     <orderEntry type="jdk" jdkName="Python 3.12 (Education)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="boxicons" level="application" />
+    <orderEntry type="library" name="ionicons" level="application" />
   </component>
 </module>
