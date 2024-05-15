@@ -292,3 +292,109 @@ main {
 .login-register p a:hover {
     text-decoration: underline;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 300px;
+    gap: 100px;
+}
+
+
+.php {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    background: url(https://www.thedroptimes.com/sites/thedroptimes.com/files/2024-04/php-card.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.python {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    background: url(https://www.i2tutorials.com/wp-content/media/2020/05/Coding-Styles-of-Python-Programming-Language-i2tutorials-1024x634.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.html {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    background: url(https://www.i2tutorials.com/wp-content/media/2020/05/Coding-Styles-of-Python-Programming-Language-i2tutorials-1024x634.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.python:hover .text {
+    right: 0;
+}
+
+.text {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: .5s;
+}
+
+.php:hover .text {
+    right: 0;
+}
+
+.text-title {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.sub-title {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.info {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+.title-btn {
+    color: black;
+    background: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    width: 120px;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+}
