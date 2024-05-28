@@ -1,19 +1,16 @@
-from flask import Flask, render_template
+def reverse_string(s):
+    return s[::-1]
 
-app = Flask(__name__)
+def is_palindrome(s):
+    return s == s[::-1]
 
-@app.route("/")
-def hello():
-    return render_template("Academy.html")
-
-
-@app.route("/contacts.html")
-def second():
-    return render_template("Contacts.html")
-
-@app.route("/about.html")
-def third():
-    return render_template("About.html")
+def capitalize_words(s):
+    return ' '.join(word.capitalize() for word in s.split())
 
 
-app.run(debug=True)
+
+def celsius_to_fahrenheit(c):
+    return c * 9/5 + 32
+
+def fahrenheit_to_celsius(f):
+    return (f - 32) * 5/9
