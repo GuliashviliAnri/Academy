@@ -1,7 +1,4 @@
 import unittest
-
-import pytest
-
 from main import celsius_to_fahrenheit
 from main import fahrenheit_to_celsius
 from main import is_palindrome
@@ -31,12 +28,12 @@ class TestFahrenheit(unittest.TestCase):
 class TestIsPalindrome(unittest.TestCase):
     def test_is_palindrome(self):
         z = is_palindrome('')
-        self.assertTrue(z)
+        self.assertTrue(z, 'level')
 
 
 class TestReverseString(unittest.TestCase):
     def test_reverse_string(self):
-        e = reverse_string("")
-        self.assertEqual(e, '')
+        e = reverse_string('hi')
+        self.assertEqual(e, 'ih')
 
 
